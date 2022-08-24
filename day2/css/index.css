@@ -1,0 +1,286 @@
+.maxnavbar{
+    position:fixed;
+    width: 100%;
+   
+    background-color: white
+}
+
+#total_navbar{
+    padding-top: 30px;
+    background: white;
+ 
+    margin:0;
+}
+
+#uppermenu{
+    
+    width: 90%;
+    margin: auto;
+   
+   
+}
+#logo_home {
+    width: 185px;
+    padding-top: 12px;
+    
+}
+
+#searchholder {
+    float: left;
+    max-width: 500px;
+    width: 25%;
+    margin: 30px 0 0 40px;
+}
+
+#search_data {
+    z-index: 1;
+    padding-left: 14px;
+    background: #fff;
+    height: 27px;
+    width: 100%;
+    display: block;
+    color: #000;
+    outline: 0;
+    text-align: -webkit-left;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border: 1px solid #d3d3d3;
+}
+
+.searchbaricon {
+    margin-top: 6px;
+    display: inline-block;
+}
+#glyphsearch,.searchbaricon {
+    position: absolute;
+}
+.gosearch {
+    position: absolute;
+    top: 0;
+    height: 27px;
+    width: 35px;
+    right: 0;
+    border: 0;
+    background: 0 0;
+}
+.searchbaricon {
+    right: 1px;
+    top: 0;
+    height: 21px;
+    width: 18px;
+    background-image: url(https://d64lkarmo2mrq.cloudfront.net/icons/search.png);
+}
+.easynav>p {
+    float: left;
+    padding: 0 20px 0 10px;
+    font-size: 11px;
+}
+.easynav {
+    top: 25px;
+    text-align: right;
+    float: right;
+}
+
+.easynav>p {
+    float: left;
+    padding: 0 20px 0 10px;
+    font-size: 11px;
+}
+
+.easynav>p, .easynav>p>a, .easynav_comp {
+    color: #474747;
+}
+
+p {
+    margin: 0 0 10px;
+}
+.easynav {
+    position: fixed;
+    text-align: right;
+    float: right;
+}
+
+
+#mobilenav>a, .easynav, .easynav_comp, .nav_wrapper {
+    position: relative;
+}
+.easynav_comp {
+    float: left;
+    padding: 0 10px;
+    font-size: 14px;
+    display: inline;
+}
+
+.easynav>p, .easynav>p>a, .easynav_comp {
+    color: #474747;
+}
+
+#cartimage {
+    width: 20px;
+    background-image: url(https://d64lkarmo2mrq.cloudfront.net/icons/navbaricons.png);
+    top: 4px;
+    background-position: -20px 0;
+}
+
+#backbtn, #cartbtn, #cartcontents, #cartimage {
+    position: relative;
+}
+#cartimage{
+    bottom: 0;
+    height: 20px;
+    display: inline-block;
+}
+
+
+/* subnavbar */
+
+#glyphholder, #search_bar, #searchmob_act, .subnav {
+    position: relative;
+
+}
+
+.horul {
+    width: 100%;
+    margin: auto;
+    list-style-type: none;
+    text-align: left;
+    height: 40px;
+    max-width: 1200px;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+#alldepts {
+    width: 200px;
+    font-size: 13px;
+    line-height: 38px;
+}
+.horul li {
+    float: left;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 7px;
+    min-width: 100px;
+    text-align: center;
+    color: #000;
+    font-size: 11px;
+}
+
+
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a {
+    background: 0 0;
+}
+.topmenuwrap {
+    z-index: 99;
+    left: 0;
+    top: 139px;
+    display: none;
+}
+.topmenuwrap, .whiteSquare label {
+    position: absolute;
+}
+option{
+    
+        position: relative;
+        display: inline-block;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+
+h1{
+    padding-top: 200px;
+}
+
+
+    .dropbtn {  
+      color: black;
+      background-color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+  
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 660px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown a:hover {background-color: #ddd;}
+    
+    .show {display: block;}
+
+.groupholder {
+    width: 160px;
+    float: left;
+}
+.row {
+    margin: 0!important;
+}
+.targetgroup {
+    width: 100%;
+    overflow: hidden;
+}
+
+#hovermenu h4 {
+    text-decoration: underline;
+    height: 20px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+}
+
+
+#box{
+    padding-top: 200px ;
+    
+
+}
