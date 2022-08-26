@@ -1,0 +1,54 @@
+#holeproductpage{
+    display: flex;
+    padding-top: 160px;
+}
+#filtar{
+    width: 25%;
+    display: grid;
+    height: 10px;
+ 
+}
+#filtar>p{
+    margin-bottom: 10px;
+   font-size: 20px;
+  margin-left: 40px;
+}
+#filtar>select{
+    width: 60%;
+    display: grid;
+    height: 60px;
+}
+
+
+#productcontainer{
+    
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#space{
+   
+   display: flex;
+   justify-content: space-between;
+
+}
+#space div:last-child{
+    color: green;
+}
+#space div:first-child{
+    color:orange;
+    font-size: 20px;
+}
+img{
+    width: 100%;
+}
+#productcontainer>div:hover{
+    cursor: pointer;
+}
+
+@media all and (min-width:312px) and (max-width:550px){
+    #productcontainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
