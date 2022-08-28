@@ -1,0 +1,39 @@
+tbody{
+    margin: auto;
+    text-align: center;
+
+}
+img{
+    border-radius: 20px;
+}
+
+#cartdetails{
+    display: flex;
+}
+
+
+#carttotalshow{
+    margin: auto;
+}
+
+#carttotalshow>p{
+    font-size: 40px;
+    color: gray;
+}
+
+
+#carttotalshow>button{
+    
+    margin-top: 30px;
+    border-color: orange;
+    background-color: white;
+    width: 80%;
+    border-radius:20px;
+    font-size: 40px;
+    color: orange;
+}
+
+#carttotalshow>button:hover{
+    cursor: pointer;
+
+}

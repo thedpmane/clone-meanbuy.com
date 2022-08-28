@@ -1,0 +1,122 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css\login.css">
+    <link rel="stylesheet" href="css\index.css">
+    
+</head>
+<body>
+   
+
+<div class="maxnavbar">
+    <div id="total_navbar" style="height: 80px;" >
+        <div id="uppermenu" ">
+            <div style="background:#fff;" class="feature_header"></div>
+            <div class="row" id="upperlogo" >
+                <div id="innerLogo">
+                    <span id="mainlogo">
+                        <a style="  float: left;" href="index.html">
+                            <img id="logo_home" src="https://d64lkarmo2mrq.cloudfront.net/baselogo.png" alt="our shop your price">
+                        </a>
+                    </span>
+                    
+                </div>
+                <div id="searchholder" >
+                    <div id="glyphholder">
+                        <form id="search_bar">
+                            <input maxlength="120" type="text" id="search_data" name="search_data" placeholder="Search" value="">
+                                <i class="searchbaricon"></i>
+                            <button type="submit" class="gosearch" value="GO"></button>
+                        </form>
+                    </div>
+    
+                </div>
+                
+                <div class="easynav"  >
+                    <p class="topnaveasy"><a href="">Seller's Corner</a> | <a href="">Feedback</a> | <a href="">Blog</a> | <a href="">Delivery Info</a> 
+                    
+                    </p>
+                    
+                    <span class="easynav_comp shopnav" >
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                    <a href="login.html">LOGIN</a> <span class="">/ 
+                    <a href="signup.html">SIGN UP</a></span><br>
+                    <span class=""><b>WELCOME </b></span>
+                    </span>
+                        
+                            
+                    <span class="easynav_comp" id="cart_on_page">  
+                    <div id="clickcart" >
+                        <span id="cartimage"></span>
+                        <span id="cartcontents">1</span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+    
+     
+           
+        </div>
+    
+    </div>
+    
+   
+</div>
+<div id="box">
+    <h1 style="color:orange ;">Login or Create Account</h1>
+    <form id="format">
+        <input type="text" name="email" id="email" placeholder="Enter Email">
+        <input type="number" name="password" id="password" placeholder="Enter password">
+        <input type="submit" id="login" >
+    </form>
+
+</div>
+<br>
+<br>
+<hr>
+<div ><img id="footerimg" style="width: 100%; " src="css\Screenshot (206).png" alt=""></div>
+</body>
+</html>
+<script>
+    
+
+    let data= JSON.parse(localStorage.getItem("data")) || [];
+
+    document.querySelector("#login").addEventListener("click",logind)
+function logind (event){
+    event.preventDefault();
+    let emaild=document.querySelector("#email").value;
+    let password=document.querySelector("#password").value;
+    console.log(emaild,password)
+  let flag=false
+    data.forEach(element => {
+        if(emaild===element.email && password===element.password){
+            flag=true
+           
+        }
+     
+        
+});
+if(flag==false){
+    alert("email or password wrong")
+    
+}else{
+    alert("login successfull");
+
+}
+
+}
+
+document.getElementById("clickcart").addEventListener("click", function () {
+    window.location.href = "cartpage.html"
+});
+    
+</script>
