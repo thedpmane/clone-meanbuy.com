@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+<link rel="stylesheet" href="css\index.css">
+</head>
+<body>
+    <div class="maxnavbar">
+        <div id="total_navbar" style="height: 80px;" >
+            <div id="uppermenu" ">
+                <div style="background:#fff;" class="feature_header"></div>
+                <div class="row" id="upperlogo" >
+                    <div id="innerLogo">
+                        <span id="mainlogo">
+                            <a style="  float: left;" href="index.html">
+                                <img id="logo_home" src="https://d64lkarmo2mrq.cloudfront.net/baselogo.png" alt="our shop your price">
+                            </a>
+                        </span>
+                        
+                    </div>
+                    <div id="searchholder" >
+                        <div id="glyphholder">
+                            <form id="search_bar">
+                                <input maxlength="120" type="text" id="search_data" name="search_data" placeholder="Search" value="">
+                                    <i class="searchbaricon"></i>
+                                <button type="submit" class="gosearch" value="GO"></button>
+                            </form>
+                        </div>
+        
+                    </div>
+                    
+                    <div class="easynav"  >
+                        <p class="topnaveasy"><a href="">Seller's Corner</a> | <a href="">Feedback</a> | <a href="">Blog</a> | <a href="">Delivery Info</a> 
+                        
+                        </p>
+                        
+                        <span class="easynav_comp shopnav" >
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                        <a href="login.html">LOGIN</a> <span class="">/ 
+                        <a href="signup.html">SIGN UP</a></span><br>
+                        <span class=""><b>WELCOME </b></span>
+                        </span>
+                            
+                                
+                        <span class="easynav_comp" id="cart_on_page">  
+                        <div id="clickcart" >
+                            <span id="cartimage"></span>
+                            <span id="cartcontents">1</span>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            
+        
+         
+               
+            </div>
+        
+        </div>
+        
+        <div class="subnav">
+            <ul class="horul">
+            <li  id="alldepts" > <div class="dropdown" >
+                <button onclick="myFunction()" class="dropbtn" >Categories<span>&#10549;</span></button>
+                <div id="myDropdown" class="dropdown-content" >
+                    <div class="row allcatslisted">
+                        <div class="groupholder"><div class="targetgroup targetmen" style="display: block;"><h4>MEN</h4><ul class="ulmen" style="display: block;"><li class="subcat_title allcatshide2 cat_Accessories" style="display: block;"><a href="https://www.meanbuy.com/shop/Accessories/Watches/gender/men" data-subcatid="183" data-subcat="Watches">Watches</a></li><li class="subcat_title allcatshide2 cat_MeanbuyDeals"><a href="https://www.meanbuy.com/shop/MeanbuyDeals/MensWatches/gender/men" data-subcatid="328" data-subcat="MensWatches">Men's Watches </a></li></ul></div><div class="targetgroup targetwomen" style="display: block;"><h4>WOMEN</h4><ul class="ulwomen" style="display: block;"><li class="subcat_title allcatshide2 cat_Accessories" style="display: block;"><a href="https://www.meanbuy.com/shop/Accessories/MakeupAccessories/gender/women" data-subcatid="320" data-subcat="MakeupAccessories"> Makeup Accessories </a></li><li class="subcat_title allcatshide2 cat_Accessories" style="display: block;"><a href="https://www.meanbuy.com/shop/Accessories/Watches/gender/women" data-subcatid="183" data-subcat="Watches">Watches</a></li></ul></div><div class="targetgroup targetboys" style="display: none;"><h4>BOYS</h4><ul class="ulboys"></ul></div><div class="targetgroup targetgirls" style="display: none;"><h4>GIRLS</h4><ul class="ulgirls"></ul></div></div>                    <div class="remaing_cats"><h4><a href="https://www.meanbuy.com/shop/Electronics">Electronics</a></h4><ul><li data-topcatname="Electronics" data-topcat="Electronics" class="subcat_title allcatshide2 cat_Electronics"><a href="https://www.meanbuy.com/shop/Electronics/GamingAccessories" data-subcatid="174" data-subcat="GamingAccessories">Gaming Accessories</a></li><li data-topcatname="Electronics" data-topcat="Electronics" class="subcat_title allcatshide2 cat_Electronics"><a href="https://www.meanbuy.com/shop/Electronics/KeyboardsMouse" data-subcatid="272" data-subcat="KeyboardsMouse">Keyboards &amp; Mouse</a></li><li data-topcatname="Electronics" data-topcat="Electronics" class="subcat_title allcatshide2 cat_Electronics"><a href="https://www.meanbuy.com/shop/Electronics/SmallAppliances" data-subcatid="134" data-subcat="SmallAppliances">Small Appliances </a></li></ul></div><div class="remaing_cats"><h4><a href="https://www.meanbuy.com/shop/Essentials">Essentials</a></h4><ul><li data-topcatname="Essentials" data-topcat="Essentials" class="subcat_title allcatshide2 cat_Essentials"><a href="https://www.meanbuy.com/shop/Essentials/HomeEssentials" data-subcatid="413" data-subcat="HomeEssentials">Home Essentials</a></li><li data-topcatname="Essentials" data-topcat="Essentials" class="subcat_title allcatshide2 cat_Essentials"><a href="https://www.meanbuy.com/shop/Essentials/MensEssentials" data-subcatid="411" data-subcat="MensEssentials">Men's Essentials</a></li><li data-topcatname="Essentials" data-topcat="Essentials" class="subcat_title allcatshide2 cat_Essentials"><a href="https://www.meanbuy.com/shop/Essentials/WomenEssentials" data-subcatid="412" data-subcat="WomenEssentials">Women Essentials</a></li></ul></div><div class="remaing_cats"><h4><a href="https://www.meanbuy.com/shop/FlashSale">Flash Sale</a></h4><ul><li data-topcatname="Flash Sale" data-topcat="FlashSale" class="subcat_title allcatshide2 cat_FlashSale"><a href="https://www.meanbuy.com/shop/FlashSale/FlashSale" data-subcatid="398" data-subcat="FlashSale">Flash Sale</a></li></ul></div><div class="remaing_cats"><h4><a href="https://www.meanbuy.com/shop/HomeLiving">Home &amp; Living</a></h4><ul><li data-topcatname="Home &amp; Living" data-topcat="HomeLiving" class="subcat_title allcatshide2 cat_HomeLiving"><a href="https://www.meanbuy.com/shop/HomeLiving/BathStorage" data-subcatid="396" data-subcat="BathStorage">Bath &amp; Storage</a></li><li data-topcatname="Home &amp; Living" data-topcat="HomeLiving" class="subcat_title allcatshide2 cat_HomeLiving"><a href="https://www.meanbuy.com/shop/HomeLiving/Gardening" data-subcatid="394" data-subcat="Gardening">Gardening</a></li><li data-topcatname="Home &amp; Living" data-topcat="HomeLiving" class="subcat_title allcatshide2 cat_HomeLiving"><a href="https://www.meanbuy.com/shop/HomeLiving/HomeDecor" data-subcatid="48" data-subcat="HomeDecor">Home Decor</a></li><li data-topcatname="Home &amp; Living" data-topcat="HomeLiving" class="subcat_title allcatshide2 cat_HomeLiving"><a href="https://www.meanbuy.com/shop/HomeLiving/HomeImprovement" data-subcatid="274" data-subcat="HomeImprovement">Home Improvement </a></li><li data-topcatname="Home &amp; Living" data-topcat="HomeLiving" class="subcat_title allcatshide2 cat_HomeLiving"><a href="https://www.meanbuy.com/shop/HomeLiving/KitchenWares" data-subcatid="393" data-subcat="KitchenWares">Kitchen Wares</a></li><li data-topcatname="Home &amp; Living" data-topcat="HomeLiving" class="subcat_title allcatshide2 cat_HomeLiving"><a href="https://www.meanbuy.com/shop/HomeLiving/NordicCeilingLights" data-subcatid="228" data-subcat="NordicCeilingLights">Nordic Ceiling Lights </a></li><li data-topcatname="Home &amp; Living" data-topcat="HomeLiving" class="subcat_title allcatshide2 cat_HomeLiving"><a href="https://www.meanbuy.com/shop/HomeLiving/PetProducts" data-subcatid="312" data-subcat="PetProducts">Pet Products </a></li></ul></div><div class="remaing_cats"><h4><a href="https://www.meanbuy.com/shop/KidsMom">Kids &amp; Mom</a></h4><ul><li data-topcatname="Kids &amp; Mom" data-topcat="KidsMom" class="subcat_title allcatshide2 cat_KidsMom"><a href="https://www.meanbuy.com/shop/KidsMom/ActionFigures" data-subcatid="410" data-subcat="ActionFigures">Action Figures </a></li><li data-topcatname="Kids &amp; Mom" data-topcat="KidsMom" class="subcat_title allcatshide2 cat_KidsMom"><a href="https://www.meanbuy.com/shop/KidsMom/DiscoveryAdventures" data-subcatid="407" data-subcat="DiscoveryAdventures">Discovery Adventures </a></li><li data-topcatname="Kids &amp; Mom" data-topcat="KidsMom" class="subcat_title allcatshide2 cat_KidsMom"><a href="https://www.meanbuy.com/shop/KidsMom/Disney" data-subcatid="403" data-subcat="Disney">Disney</a></li><li data-topcatname="Kids &amp; Mom" data-topcat="KidsMom" class="subcat_title allcatshide2 cat_KidsMom"><a href="https://www.meanbuy.com/shop/KidsMom/HelloKitty" data-subcatid="406" data-subcat="HelloKitty">Hello Kitty </a></li><li data-topcatname="Kids &amp; Mom" data-topcat="KidsMom" class="subcat_title allcatshide2 cat_KidsMom"><a href="https://www.meanbuy.com/shop/KidsMom/KidsShoes" data-subcatid="311" data-subcat="KidsShoes">Kid's Shoes</a></li><li data-topcatname="Kids &amp; Mom" data-topcat="KidsMom" class="subcat_title allcatshide2 cat_KidsMom"><a href="https://www.meanbuy.com/shop/KidsMom/Marvel" data-subcatid="404" data-subcat="Marvel">Marvel</a></li><li data-topcatname="Kids &amp; Mom" data-topcat="KidsMom" class="subcat_title allcatshide2 cat_KidsMom"><a href="https://www.meanbuy.com/shop/KidsMom/Minions" data-subcatid="405" data-subcat="Minions">Minions</a></li><li data-topcatname="Kids &amp; Mom" data-topcat="KidsMom" class="subcat_title allcatshide2 cat_KidsMom"><a href="https://www.meanbuy.com/shop/KidsMom/SchoolBackpacks" data-subcatid="292" data-subcat="SchoolBackpacks">School Backpacks</a></li><li data-topcatname="Kids &amp; Mom" data-topcat="KidsMom" class="subcat_title allcatshide2 cat_KidsMom"><a href="https://www.meanbuy.com/shop/KidsMom/Toys" data-subcatid="161" data-subcat="Toys">Toys</a></li></ul></div><div class="remaing_cats"><h4><a href="https://www.meanbuy.com/shop/MeanbuyDeals">Meanbuy Deals</a></h4><ul><li data-topcatname="Meanbuy Deals" data-topcat="MeanbuyDeals" class="subcat_title allcatshide2 cat_MeanbuyDeals"><a href="https://www.meanbuy.com/shop/MeanbuyDeals/Gifts" data-subcatid="397" data-subcat="Gifts"> Gifts</a></li><li data-topcatname="Meanbuy Deals" data-topcat="MeanbuyDeals" class="subcat_title allcatshide2 cat_MeanbuyDeals"><a href="https://www.meanbuy.com/shop/MeanbuyDeals/Electronics" data-subcatid="331" data-subcat="Electronics">Electronics </a></li><li data-topcatname="Meanbuy Deals" data-topcat="MeanbuyDeals" class="subcat_title allcatshide2 cat_MeanbuyDeals"><a href="https://www.meanbuy.com/shop/MeanbuyDeals/MensWatches" data-subcatid="328" data-subcat="MensWatches">Men's Watches </a></li><li data-topcatname="Meanbuy Deals" data-topcat="MeanbuyDeals" class="subcat_title allcatshide2 cat_MeanbuyDeals"><a href="https://www.meanbuy.com/shop/MeanbuyDeals/SmartWatches" data-subcatid="326" data-subcat="SmartWatches">Smart Watches</a></li><li data-topcatname="Meanbuy Deals" data-topcat="MeanbuyDeals" class="subcat_title allcatshide2 cat_MeanbuyDeals"><a href="https://www.meanbuy.com/shop/MeanbuyDeals/TopSellingSmartWatches" data-subcatid="379" data-subcat="TopSellingSmartWatches">Top Selling Smart Watches </a></li></ul></div><div class="remaing_cats"><h4><a href="https://www.meanbuy.com/shop/MobilesTabs">Mobiles &amp; Tabs</a></h4><ul><li data-topcatname="Mobiles &amp; Tabs" data-topcat="MobilesTabs" class="subcat_title allcatshide2 cat_MobilesTabs"><a href="https://www.meanbuy.com/shop/MobilesTabs/BluetoothEarphone" data-subcatid="277" data-subcat="BluetoothEarphone">Bluetooth Earphone</a></li><li data-topcatname="Mobiles &amp; Tabs" data-topcat="MobilesTabs" class="subcat_title allcatshide2 cat_MobilesTabs"><a href="https://www.meanbuy.com/shop/MobilesTabs/MobilesAccessories" data-subcatid="101" data-subcat="MobilesAccessories">Mobiles Accessories</a></li><li data-topcatname="Mobiles &amp; Tabs" data-topcat="MobilesTabs" class="subcat_title allcatshide2 cat_MobilesTabs"><a href="https://www.meanbuy.com/shop/MobilesTabs/SportingBluetooth" data-subcatid="278" data-subcat="SportingBluetooth">Sporting Bluetooth </a></li><li data-topcatname="Mobiles &amp; Tabs" data-topcat="MobilesTabs" class="subcat_title allcatshide2 cat_MobilesTabs"><a href="https://www.meanbuy.com/shop/MobilesTabs/WiredHeadphones" data-subcatid="70" data-subcat="WiredHeadphones">Wired Headphones</a></li><li data-topcatname="Mobiles &amp; Tabs" data-topcat="MobilesTabs" class="subcat_title allcatshide2 cat_MobilesTabs"><a href="https://www.meanbuy.com/shop/MobilesTabs/WirelessChargers" data-subcatid="279" data-subcat="WirelessChargers">Wireless Chargers</a></li><li data-topcatname="Mobiles &amp; Tabs" data-topcat="MobilesTabs" class="subcat_title allcatshide2 cat_MobilesTabs"><a href="https://www.meanbuy.com/shop/MobilesTabs/WirelessSpeakers" data-subcatid="280" data-subcat="WirelessSpeakers">Wireless Speakers</a></li></ul></div></div>
+                </div>
+              </div> <span class="spinner-loading-cats">
+                
+                <i class="caret-down-menu">
+                    
+                </i></span></li>
+            
+                
+            
+            
+            <a href="flashsale.html"><li>Flash Sale <span></span></li></a>
+            <a href="flashsale.html"><li class="hidemob">Best Deals <span></span></li></a>
+            <a href="flashsale.html"><li class="hidemob">Shop by Brand <span></span></li></a>
+            <a href="flashsale.html"><li class="hidemob">Trending <span></span></li></a>
+            <a href="newarrivals"><li>New Arrivals <span></span></li></a>
+            
+            </ul>
+            
+            </div>
+    </div>
+
+    <div id="addressdetails" style="padding-top:170px ;">
+        <form >
+           <h3 style="color:orange ;">Delivery Address</h3>
+           <p>Name</p>
+            <input type="text" placeholder="Name" style="margin-bottom:20px ;">
+            <p style="color:orange ;">Address 1</p>
+            <input type="text" placeholder="Address 1" style="margin-bottom:20px ;">
+            <p>Address 2</p>
+            <input type="text" placeholder="Address 2" style="margin-bottom:20px ;">
+            <p style="color:orange ;">State</p>
+            <div><select name="region" id="state" style="margin-bottom:20px ;">
+                <option value="" selected="selected">Select State</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="AR">Arunachal Pradesh</option>
+                <option value="AS">Assam</option>
+                <option value="BR">Bihar</option>
+                <option value="CT">Chhattisgarh</option>
+                <option value="GA">Goa</option>
+                <option value="GJ">Gujarat</option>
+                <option value="HR">Haryana</option>
+                <option value="HP">Himachal Pradesh</option>
+                <option value="JK">Jammu &amp; Kashmir</option>
+                <option value="JH">Jharkhand</option>
+                <option value="KA">Karnataka</option>
+                <option value="KL">Kerala</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="MH">Maharashtra</option>
+                <option value="MN">Manipur</option>
+                <option value="ML">Meghalaya</option>
+                <option value="MZ">Mizoram</option>
+                <option value="NL">Nagaland</option>
+                <option value="OR">Odisha</option>
+                <option value="PB">Punjab</option>
+                <option value="RJ">Rajasthan</option>
+                <option value="SK">Sikkim</option>
+                <option value="TN">Tamil Nadu</option>
+                <option value="TS">Telangana</option>
+                <option value="TR">Tripura</option>
+                <option value="UK">Uttarakhand</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="WB">West Bengal</option>
+                <option value="AN">Andaman &amp; Nicobar</option>
+                <option value="CH">Chandigarh</option>
+                <option value="DN">Dadra and Nagar Haveli</option>
+                <option value="DD">Daman &amp; Diu</option>
+                <option value="DL">Delhi</option>
+                <option value="LD">Lakshadweep</option>
+                <option value="PY">Puducherry</option>
+                </select>
+                </div>
+                <p>Country</p>
+            <input type="text" value="India" placeholder="India" style="margin-bottom:20px ;">
+            <p style="color:orange ;">Pin Code</p>
+            <input type="text" placeholder="Pin code" style="margin-bottom:20px ;">
+            <br>
+            <button style="margin-bottom:20px ;">Save Address Details</button>
+            <br>
+            <button id="done" style="margin-top:20px ;" >PAY</button>
+
+        </form>
+    </div>
+</body>
+</html>
+
+<style>
+    #addressdetails{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 50%;
+        margin: auto;
+    }
+
+select,input{
+    margin-left: 15%;
+    
+    padding: 2px 0 2px 4px;
+    width: 70%;
+    height: 40px;
+    background: #fffefe;
+    border: 0.5px solid #000;
+    border-radius: 4px;
+}
+
+p,h3{
+    margin-left: 15%;
+    
+}
+ button {
+    width: 50%;
+    height: 60px;
+    margin-left: 25%;
+    border-color: orange;
+    background-color: white;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: orange;
+}</style>
+
+<script>
+    document.getElementById("done").addEventListener("click",function(){
+        alert("Order successfully placed")
+    })
+  
+</script>
