@@ -51,9 +51,8 @@ It’s e-commerce web application that allows you to buy toys online. It has a v
 ## Screens 
 - Homepage / Landing Page
 - Product Listing Page with all categories
-- Product Description Page
-- Cart Management Page
-- Checkout with Address Management Page
+- Cart Page
+- Checkout Page with Address 
 - Login / Logout Page
 - Single Product Page
 
@@ -66,11 +65,7 @@ It’s e-commerce web application that allows you to buy toys online. It has a v
 ## 🚀 User Features
 - Login and Signup User Account
 - Product Sorting Based on Price, Rating and Name
-- My Orders Section for details of all ordered item
-- Cart Add and Remove Items 
-- Cart Update Quantities 
-
-
+- Cart Add Items  
 
 <br />
 
